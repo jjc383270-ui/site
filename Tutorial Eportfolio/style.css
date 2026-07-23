@@ -7,6 +7,9 @@ font-family: "Lato", sans-serif;
     margin: 0;
     box-sizing: border-box;
 }
+body {
+  background-color: lightblue;
+}
 h1, h2, h3, h4, h5, h6, span {
     color: #242424;
     text-align: center;
@@ -125,155 +128,28 @@ nav {
 
         
     }
-    /* TECH  - STACK */
-
-    .language__img {
-        width: 100%;
-        max-width: 100px;
-    }
-    .language {
-        width: 25%
-    }
-    .language__img--wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 25px 16px;
-    
-    }
-
-    .language__list {
-        display: flex;
-        width: 100%;
-        flex-wrap: wrap;
-       
-    }
-   <section id="languages">
-  <div class="container">
-    <div class="row">
-      <h1 class="section__title">
-        This is my <span class="text--purple">technology stack</span>
-      </h1>
-
-      <div class="language__list">
-        <div class="language">
-          <figure class="language__img--wrapper">
-            <img
-              
-              
-              class="language__img"
-            >
-          </figure>
-          <span class="language__name">HTML</span>
-        </div>
-
-        <div class="language">
-          <figure class="language__img--wrapper">
-            <img
-              src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
-              alt="CSS Logo"
-              class="language__img"
-            >
-          </figure>
-          <span class="language__name">CSS</span>
-        </div>
-
-        <div class="language">
-          <figure class="language__img--wrapper">
-            <img
-              src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png"
-              alt="JavaScript Logo"
-              class="language__img"
-            >
-          </figure>
-          <span class="language__name">JavaScript</span>
-        </div>
-
-        <div class="language">
-          <figure class="language__img--wrapper">
-            <img
-              src="https://cdn.iconscout.com/icon/free/png-256/typescript-3521774-2945272.png"
-              alt="TypeScript Logo"
-              class="language__img"
-            >
-          </figure>
-          <span class="language__name">TypeScript</span>
-        </div>
-
-        <div class="language">
-          <figure class="language__img--wrapper">
-            <img
-              src="https://cdn.iconscout.com/icon/free/png-256/vue-282497.png"
-              alt="Vue Logo"
-              class="language__img"
-            >
-          </figure>
-          <span class="language__name">Vue</span>
-        </div>
-
-        <div class="language">
-          <figure class="language__img--wrapper">
-            <img
-              src="https://cdn.iconscout.com/icon/free/png-256/nuxt-dot-js-3628959-3030184.png"
-              alt="Nuxt Logo"
-              class="language__img"
-            >
-          </figure>
-          <span class="language__name">Nuxt</span>
-        </div>
-
-        <div class="language">
-          <figure class="language__img--wrapper">
-            <img
-              src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png"
-              alt="React Logo"
-              class="language__img"
-            >
-          </figure>
-          <span class="language__name">React</span>
-        </div>
-
-        <div class="language">
-          <figure class="language__img--wrapper">
-            <img
-              src="https://mobx.js.org/img/mobx.png"
-              alt="MobX Logo"
-              class="language__img"
-            >
-          </figure>
-          <span class="language__name">MobX</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-Please also check that the matching CSS appears exactly like this:
+    /* TECH - STACK */
+.language__list { display: flex; flex-wrap: wrap; justify-content: center; width: 100%; }
+.language { width: 25%; display: flex; flex-direction: column; align-items: center; position: relative; }
+.language__img--wrapper { display: flex; justify-content: center; align-items: center; padding: 25px 16px; }
+.language__img { width: 100%; max-width: 100px; transition: all 300ms ease; }
 
 .language__img {
-  width: 100%;
-  max-width: 100px;
-  transition: all 300ms ease;
+    width: 100%;
+    max-width: 100px;
+    transition: all 300ms ease;
 }
 
 .language {
-  width: 25%;
-  align-items: center;
-  justify-content: center;
-  
-
-.language__img--wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 25px 16px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.language__list {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  flex-wrap: wrap;
-}
+
+
+
 
 
 
