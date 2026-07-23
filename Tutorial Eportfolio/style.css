@@ -126,6 +126,28 @@ nav {
         
     }
     /* TECH  - STACK */
+
+    .language__img {
+        width: 100%;
+        max-width: 100px;
+    }
+    .language {
+        width: 25%
+    }
+    .language__img--wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px 16px;
+    
+    }
+
+    .language__list {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+       
+    }
    <section id="languages">
   <div class="container">
     <div class="row">
@@ -137,8 +159,8 @@ nav {
         <div class="language">
           <figure class="language__img--wrapper">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
-              alt="HTML Logo"
+              
+              
               class="language__img"
             >
           </figure>
@@ -235,10 +257,9 @@ Please also check that the matching CSS appears exactly like this:
 
 .language {
   width: 25%;
-  position: relative;
-  display: flex;
+  align-items: center;
   justify-content: center;
-}
+  
 
 .language__img--wrapper {
   display: flex;
