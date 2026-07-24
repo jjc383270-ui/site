@@ -7,9 +7,17 @@ font-family: "Lato", sans-serif;
     margin: 0;
     box-sizing: border-box;
 }
-body {
-  background-color: lightblue;
+h1 {
+    font-size: 36px;
+
 }
+ .about-me__info--title{
+    margin-bottom: 16px;
+ }
+.about-me__info--para{
+    margin-bottom: 28px;
+    font-size: 20px;
+ }
 h1, h2, h3, h4, h5, h6, span {
     color: #242424;
     text-align: center;
