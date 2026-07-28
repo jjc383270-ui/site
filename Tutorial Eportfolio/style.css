@@ -257,15 +257,47 @@ nav {
 }
 
 .footer__row {
+  display: flex;
+  flex-direction: colomn;
+  align-items: center;
   padding: 8% 0;
-
 }
-
 .footer__logo--img {
   width: 70px;
   height: 70px;
 
 }
+.footer__social-link,
+.footer__copyright,
+.footer__logo--popper {
+  color: #fff;
+}
+.footer__logo--popper {
+  position: absolute;
+}
+.footer__anchor {
+  position: relative;
+  right: 0;
+  top: 30px;
+  font-weight: 700;
+}
+
+
+.footer__social--list {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  margin-bottom:28px;
+}
+
+.footer__social--link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 
 
 
