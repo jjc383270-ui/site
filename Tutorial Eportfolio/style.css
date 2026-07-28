@@ -258,7 +258,7 @@ nav {
 
 .footer__row {
   display: flex;
-  flex-direction: colomn;
+ flex-direction: column;
   align-items: center;
   padding: 8% 0;
 }
@@ -270,6 +270,9 @@ nav {
 .footer__social-link,
 .footer__copyright,
 .footer__logo--popper {
+  color: #fff;
+}
+.footer__social--link {
   color: #fff;
 }
 footer {
