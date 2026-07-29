@@ -6,9 +6,14 @@ font-family: "Lato", sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+}
+html {
+  scroll-behavior: smooth;
 }
 h1 {
     font-size: 36px;
+
 
 }
  .about-me__info--title{
@@ -45,6 +50,62 @@ li {
 }
 .text--purple {
     color:#6030b1
+}
+.wave {
+
+display: inline-block;
+
+animation: animate-wave 500ms infinite ease-in-out;
+
+}
+
+@keyframes animate-wave {
+
+0% {
+
+transform: rotate(0);
+
+}
+
+50% {
+
+transform: rotate(30deg);
+
+}
+
+100% {
+
+transform: rotate(0);
+
+}
+
+}
+
+.link__hover-effect {
+  position: relative;
+}
+
+.link__hover-effect::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0;
+  bottom: -3px;
+  right: 0;
+  transition: all 300ms ease;
+}
+
+.link__hover-effect--white::after {
+  background-color: #fff;
+}
+
+.link__hover-effect--black::after {
+  background-color: #000;
+}
+
+.link__hover-effect:hover::after {
+  width: 100%;
+  left: 0;
 }
 
 /* NAVIGATION BAR */
@@ -276,6 +337,20 @@ footer {
   display: block;
   width: 70px;
   height: 70px;
+}
+.footer__logo--popper {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #fff;
+  font-weight: 700;
+  opacity: 0;
+  transition: all 500ms ease;
+}
+
+.footer__anchor:hover .footer__logo--popper {
+  transform: translateX(60px);
+  opacity: 1;
 }
 
 .footer__social--list {
